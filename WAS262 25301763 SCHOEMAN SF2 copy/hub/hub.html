@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game Hub</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        canvas {
+            border: 4px solid white;
+            background: #7fb069;
+        }
+    </style>
+</head>
+
+<body>
+
+    <canvas id="gameCanvas" width="900" height="500"></canvas>
+
+
+    <script src="audio.js"></script>
+
+    <script src="../minigames/townDelivery.js"></script>
+    <script>
+        console.log("Test:index is reading script")
+    </script>
+    <script src="../minigames/flood_level.js"></script>
+    <script>
+        console.log("Test:index is reading script for flood")
+    </script>
+    <script src="../minigames/snow_level.js"></script>
+    <script>
+        console.log("Test:index is reading script for flood")
+    </script>
+    <script src="../hub/hub.js"></script>
+
+</body>
+
+</html>
